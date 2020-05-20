@@ -1,0 +1,60 @@
+{
+  "name": "vue-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@cubejs-client/core": "0.10.16",
+    "@cubejs-client/vue": "0.10.16",
+    "core-js": "3.4.2",
+    "dayjs": "1.8.15",
+    "echarts": "4.2.1",
+    "ve-charts": "0.8.1",
+    "vue": "2.6.10",
+    "vue-smart-widget": "0.5.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.0.5",
+    "@vue/cli-plugin-eslint": "4.0.5",
+    "@vue/cli-service": "4.0.5",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "keywords": [
+    "cube.js",
+    "ve-charts",
+    "vue",
+    "dashboard"
+  ],
+  "description": "A dashboard base on vue, cube.js, ve-charts"
+}

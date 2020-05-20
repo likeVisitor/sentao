@@ -1,2 +1,0 @@
-# sentao
-Created with CodeSandbox
